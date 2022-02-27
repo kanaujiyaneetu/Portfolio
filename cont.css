@@ -1,0 +1,38 @@
+.contactform
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 144px;
+    padding: 34px 45px;
+
+}
+.contactform h1
+{   background-color: aquamarine;
+    text-align: center;
+}
+.contactform form div{
+    padding:  27px 0;
+    padding: 9px;
+}
+.contactform form div input{
+    width:26vw;
+    border-radius: 5px;
+    padding:  4px 0 0 0;
+    padding: 4px;
+}
+.message
+{
+    margin-left: 500px;
+}
+#greeting
+{
+/* {    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 19px;
+    color: purple;
+    margin: 0 5px;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Architects Daughter', cursive; cursive */
+}
+.form-check
+{
+    
+}

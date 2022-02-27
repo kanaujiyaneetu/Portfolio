@@ -1,0 +1,45 @@
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 20px; */
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills
+{
+    width: 93px;
+    height: 10px;
+    /* background-color: red; */
+     border-radius: 8px;
+     font-family: 'Architects Daughter', cursive;
+}
+.skillcontainer
+{
+    padding: 12px;
+}
+.skillitem
+{
+display: flex;
+align-items: center;
+font-family: 'Architects Daughter', cursive;
+}
+.e80
+{
+    width: 80px;
+    background-color:firebrick;
+}
+.f50
+{ background-color:firebrick;
+    width: 50px;
+}
+.s75
+{ background-color:firebrick;
+    width: 75px;
+}
+.im
+{
+  height: 23px;
+  width: 23px;
+}

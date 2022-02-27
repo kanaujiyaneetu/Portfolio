@@ -1,0 +1,154 @@
+/* @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Architects+Daughter&family=Source+Code+Pro:ital,wght@1,600&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Code+Pro:ital,wght@1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Architects+Daughter&family=Merriweather:ital,wght@1,900&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Architects+Daughter&family=Merriweather:ital,wght@1,900&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+.sidebar
+{
+    background-color: lightblue;
+    width: 8vw;
+font-family: 'Merriweather', serif;
+    height: 100vh;
+    padding: 47px;
+    transition: transform 0.3s ease-in;
+
+}
+.name
+{
+    /* font-display: blue; */
+    font-family: 'Merriweather', serif;
+    font-size: auto
+    ;
+    
+}
+.resume
+{
+    list-style: none;
+}
+.sidebar nav
+{
+    /* padding: 45px; */
+
+}
+.sidebar nav li
+{
+    list-style: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.sidebar nav li a
+{
+   /* list-style: none; */
+   text-decoration: none;
+   color: black;
+    
+}
+.sidebar nav ul{
+    margin: 7px 10 2px 100px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    /* background-color: yellow; */
+    width: 85vw;
+    padding: 20px;
+}
+.container
+{
+    display: flex;
+}
+.infoc
+{  font-family: 'Architects Daughter', cursive;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: green; */
+    height: 75vh;
+    width: 75vw;
+   margin: auto;
+   margin-top: 9px;
+   display: flex;
+   /* flex-wrap: wrap; */
+   /* justify-content: center; */
+
+}
+.devpic img{
+    height: 60vh;
+    border-radius: 100px;
+    /* width: 50vh; */
+    justify-content: center;
+    
+}
+.devinfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello
+{
+   font-size: 20px;
+   font-weight: bold;
+}
+.about{
+font-size: 25px;
+font-weight: bold;
+}
+/* .name{ */
+font-size: 30px;
+font-weight: bold;
+}
+.buttons
+{
+    margin-top: 34px;
+    /* text-decoration: none; */
+}
+.buttons button
+{ padding: 5px 11px;
+border-radius: 15px;
+color: white;
+font-weight: bold;
+margin: 0 3px;
+cursor: pointer;
+background-color: dodgerblue;
+text-decoration: none;
+/* list-style: none; */
+}
+.buttons button:hover
+{
+    color: lawngreen;
+    background-color: white;
+}
+.moreabout
+{
+font-size: 20px;
+}
+@media (max-width:550px){
+    *
+    {
+        background-color:darkorange;
+    }
+}
+.hamberger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.cross
+{
+    margin-left: 126px;
+}
+/* .sidebargo
+{
+transform: translate(-443px,0px);
+position: absolute;
+} */
+/* font-family: 'ABeeZee', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Source Code Pro', monospace; */
