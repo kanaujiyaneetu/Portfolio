@@ -1,4 +1,4 @@
-console.log("running");
+// console.log("running");
 document.querySelector('.cross').style.display='none';
 document.querySelector('.hamburger').addEventListener("click",()=>{
     document.querySelector('.sidebar').classList.toggle('sidebargo')
@@ -15,4 +15,4 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
         
     }
     
-})
+});

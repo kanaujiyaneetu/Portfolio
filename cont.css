@@ -1,13 +1,17 @@
 .contactform
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 144px;
+    padding-top: 244px;
     padding: 34px 45px;
 
 }
 .contactform h1
 {   background-color: aquamarine;
     text-align: center;
+}
+.mb-3 email
+{
+background-color: black;
 }
 .contactform form div{
     padding:  27px 0;
@@ -19,9 +23,18 @@
     padding:  4px 0 0 0;
     padding: 4px;
 }
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
 .message
 {
     margin-left: 500px;
+    size: 50pc;
 }
 #greeting
 {

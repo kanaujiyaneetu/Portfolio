@@ -12,6 +12,30 @@ font-family: 'Merriweather', serif;
     transition: transform 0.3s ease-in;
 
 }
+nav ul li{
+
+    padding : 0 10px 0 10px;
+    
+    }
+.footer{
+    background-color:brown;
+    color: hsl(0, 22%, 96%);
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+  }
+  .footer__title{
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+  }
+  .footer__social{
+    margin-bottom: var(--mb-4);
+  }
+  .footer__icon{
+    font-size: 1.5rem;
+    color: rgb(246, 241, 241);
+    margin: 0 var(--mb-2)
+  }
 .name
 {
     /* font-display: blue; */
@@ -107,13 +131,14 @@ font-weight: bold;
 }
 .buttons button
 { padding: 5px 11px;
-border-radius: 15px;
+border-radius: 50px;
 color: white;
 font-weight: bold;
 margin: 0 3px;
 cursor: pointer;
 background-color: dodgerblue;
 text-decoration: none;
+size: 0ch;
 /* list-style: none; */
 }
 .buttons button:hover
