@@ -1,76 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cont.css">
-    <link rel="stylesheet" href="intro.css">
-    <script defer src="script.js"></script>
-    <!-- <link rel="stylesheet" href="script.js"> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cont.css" />
+    <link rel="stylesheet" href="intro.css" />
+   
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <div class="sidebar sidebargo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a> </li>
-                    <li><a href="intro.html"> ABOUT </a></li>
-                    
-                     <li><a href="contact.html">CONTACT</a> </li>
-                    <!-- <li><a href="cv.html">cv</a> </li> -->
-                </ul>
-            </nav>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="index.html">ABOUT</a>
+        <a href="intro.html">INTRO</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">
+          &#9776; Open Sidebar
+        </button>
+      </div>
+      <script src="sidebar.js"></script>
+      <div class="main">
+        <div class="hamberger">
+          <img class="ham" src="h.jfif" alt="" width="23px" />
+          <img class="cross" src="c.jfif" alt="" width="23px" />
         </div>
-        <div class="main">
-            <div class="hamberger">
-                <img class="ham" src="h.jfif" alt="" width="23px">
-                <img class="cross" src="c.jfif" alt="" width="23px">
+        <div class="infoc">
+          <div class="devinfo">
+            <div class="hello">HI I AM</div>
+            <br />
+            <div class="name">NEETU ,</div>
+            <br />
+            <div class="about">STUDENT | PROGRAMMER</div>
+            <br />
+
+            <div class="moreabout">
+              Hi, I'm Neetu, I am Pre-final year student at NIT Jalandhar I am
+              highly motivated and passionate for Technology and Computer
+              programming.
             </div>
-            <div class="infoc">
-                <div class="devinfo">
-                    <div class="hello">Hi I AM</div>
-                    <br>
-                    <div class="name">NEETU ,</div>
-                    <br>
-                    <div class="about">STUDENT | PROGRAMMER</div>
-                    <br>
-                    
-                    <div class="moreabout">Hi, I'm Neetu, I am Pre-final year  student at NIT Jalandhar
-                      I am highly motivated and passionate for Technology and Computer programming.</div>
-                    <div class="buttons">
-                        <br>
-                        <br><br><br><br>
-                        <!-- <a href="/cv.html"> -->
-                        <!-- https://drive.google.com/file/d/1_9z30PSvl4b6jF3eqMuuhPEmXhufbMdE/view?usp=sharing -->
-                        <button><a href="https://drive.google.com/file/d/1_9z30PSvl4b6jF3eqMuuhPEmXhufbMdE/view?usp=sharing">
-                           Download resume 
-                        </a></button>
-                        <!-- <button>download resume</button></a> -->
-                        <a href="/contact.html">
-                        <button>contact me</button>
-                         </a>
-                    </div>
-                </div>
-                <div class="devpic"><img src="abc.jpeg" height="400" width="500" alt="neetu"></div>
+            <div class="buttons">
+              <br />
+              <br /><br /><br /><br />
+              <!-- <a href="/cv.html"> -->
+              <!-- https://drive.google.com/file/d/1_9z30PSvl4b6jF3eqMuuhPEmXhufbMdE/view?usp=sharing -->
+              <button>
+                <a
+                  href="https://drive.google.com/file/d/1_9z30PSvl4b6jF3eqMuuhPEmXhufbMdE/view?usp=sharing"
+                >
+                  Download resume
+                </a>
+              </button>
+              <!-- <button>download resume</button></a> -->
+              <a href="/contact.html">
+                <button>contact me</button>
+              </a>
             </div>
+          </div>
+          <div class="devpic">
+            <img src="abc.jpeg" height="400" width="500" alt="neetu" />
+          </div>
         </div>
+      </div>
     </div>
     <footer class="footer">
-        <p class="footer__title">HEY</p>
-        <div class="footer__social">
-            <a href="https://auth.geeksforgeeks.org/user/neetu_devi" target="_blank" class="footer__icon"><i class="bx bxl-geeksforgeeks"></i></a>
-            <a href="https://leetcode.com/kanaujiya_neetu/" target="_blank" class="footer__icon"><i class="bx bxl-leetcode"></i></a>
-           
-       
-        <p>© more about me...</p> </div>
-    </footer>
-    <!-- <script src="script.js"></script> -->
-</body>
+      <p class="footer__title">HEY</p>
+      <div class="footer__social">
+        <a
+          href="https://auth.geeksforgeeks.org/user/neetu_devi"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-geeksforgeeks"></i
+        ></a>
+        <a
+          href="https://leetcode.com/kanaujiya_neetu/"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-leetcode"></i
+        ></a>
 
+        <p>© more about me...</p>
+      </div>
+    </footer>
+    <script src="sidebar.js"></script>
+  </body>
 </html>

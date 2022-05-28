@@ -1,6 +1,6 @@
 .contactform
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Merriweather', serif;
     padding-top: 244px;
     padding: 34px 45px;
 
@@ -48,4 +48,8 @@ background-color: black;
 .form-check
 {
     
+}
+.footer
+{
+    margin-top: 20vh;
 }

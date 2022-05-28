@@ -7,17 +7,28 @@ p
 {
     font-family: 'Times New Roman', Times, serif;
 }
+.skills__container bd-grid
+{
+    margin-left: 500px;
+}
 .skills
 {
-    width: 93px;
-    height: 10px;
+   
+    height: 20PX;
     /* background-color: red; */
      border-radius: 8px;
+     margin-left: 50px;
      font-family: 'Architects Daughter', cursive;
+     margin-left: 235px;
+    margin-right: -186px;
+}
+.footer
+{
+    margin-top: 44vh;
 }
 .skillcontainer
 {
-    padding: 12px;
+    padding: 0PX;
 }
 .skillitem
 {
@@ -34,10 +45,7 @@ font-family: 'Architects Daughter', cursive;
 { background-color:firebrick;
     width: 50px;
 }
-.s75
-{ background-color:firebrick;
-    width: 75px;
-}
+
 .im
 {
   height: 23px;
@@ -49,7 +57,7 @@ font-family: 'Architects Daughter', cursive;
   }
   .skills__subtitle{
     /* margin-bottom: var(--mb-2); */
-    font-size: medium;
+    font-size: 30PX;
   }
   .skills__text{
     /* margin-bottom: var(--mb-4); */

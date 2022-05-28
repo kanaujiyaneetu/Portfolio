@@ -9,30 +9,28 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="intro.css">
     <link rel="stylesheet" href="cont.css">
-    <script defer src="script.js"></script>
-    <!-- <link rel="stylesheet" href="script.js"> -->
+  
 </head>
 
 <body>
     <div class="container">
-        <div class="hamberger">
-            <img class="ham" src="h.jfif" alt="" width="23px">
-            <img class="cross" src="c.jfif" alt="" width="23px">
-        </div>
-        <div class="sidebar sidebargo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a> </li>
-                    <li><a href="intro.html"> ABOUT </a></li>
-                    
-                     <li><a href="contact.html">CONTACT</a> </li>
-                    
-                </ul>
-            </nav>
+      
         </div>
         <div class="main">  
             <div class="main">
-
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                   
+                    <a href="index.html">About</a>
+                    <a href="intro.html">intro</a>
+                    
+                    <a href="contact.html">Contact</a>
+                  </div>
+                  
+                  <div id="main">
+                    <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+                   
+                  </div>
                    <h1> ABOUT ME</h1>
                     <br><br><br><br><br>
                     <div class="skills__container bd-grid">          
@@ -97,6 +95,32 @@
                                     <span class="skills__percentage">70%</span>
                                 </div>
                             </div>
+                            <div class="skills__data" data-sr-id="16" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                                <div class="skills__names">
+                                    <i class="bx bxs-paint skills__icon"></i>
+                                    <span class="skills__name">SQL</span>
+                                </div>
+                                <br><br>
+                                <div class="skills__bar skills__ux">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">70%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data" data-sr-id="16" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                                <div class="skills__names">
+                                    <i class="bx bxs-paint skills__icon"></i>
+                                    <span class="skills__name">OBJECT ORIENTED PROGRAMMING</span>
+                                </div>
+                                <br><br>
+                                <div class="skills__bar skills__ux">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">70%</span>
+                                </div>
+                            </div>
                         </div>
                         
                       
@@ -118,7 +142,7 @@
        
         <p>© more about me...</p> </div>
     </footer>
-    <!-- <script src="script.js"></script> -->
+ <script src="sidebar.js"></script>
 </body>
 
 </html>
